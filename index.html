@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Casa Hotel | El Manantial">
+    <meta name="robots" content="index,follow">
+    <title>Casa Hotel | El Manantial</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/logo_Manantial.png" alt="Logo El Manantial" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">El Hotel</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Actividades</a>
+            <a href="#quienesSomos" data-section="menu" data-value="item3">¿Quienes Somos?</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Alojamiento</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Sitios turisticos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+
+            <container class="container_image-home">
+                <div id="image_home"></div>
+            </container>
+
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-2">Casa Hotel El Manantial</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"></p>
+                </div>
+
+
+                <div class="container_button">
+
+                    <a href="https://wa.me/+573045301893">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+
+            <div class="container_content-sobreMi">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">La Casa Hotel</span>
+                    <span class="text_sobreMi">En nuestra Casa Hotel, te brindamos una
+                        experiencia inolvidable en un entorno natural 🌳. Disfruta del
+                        descanso 😴, la tranquilidad 🧘 y la comodidad 🛏️ que ofrecemos.
+                        Superamos expectativas con un servicio excepcional 🏆,
+                        hospitalidad auténtica 🤝 y atención meticulosa a los detalles 🕵️‍♀️. Valoramos tu satisfacción
+                        por encima de todo y te proporcionamos momentos memorables 🎉. Además, ofrecemos actividades
+                        como glamping 🏕️, billar 🎱, ping pong 🏓, juegos extremos 🔥, caminatas ecológicas 🌿 y paseos
+                        en cuatrimotos 🛵 para que disfrutes al máximo tu estadía. ¡Tu aventura en la naturaleza empieza
+                        aquí! 🌿🏨.</span>
+                </div>
+
+                <div class="container--carrusel">
+                    <h2 class="title-carrusel">"¡Echa un vistazo a algunas fotos de lo que te espera para que disfrutes!
+                        📸🌟"</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicadores -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- Imágenes del carrusel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/Pozo02.jpg" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/cascada02.jpg" alt="Imagen 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/cascada03.jpg" alt="Imagen 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/iglesia01.jpg" alt="Imagen 4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/cascada04.jpg" alt="Imagen 4">
+                            </div>
+                        </div>
+
+                        <!-- Controles del carrusel -->
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title">Actividades</h1>
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="./assets/images/icon-cama.png" alt="Icono de Alojamiento">
+                    <p>Alojamiento</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1700">
+                    <img src="./assets/images/icon-caminata.png" alt="Icono Caminata">
+                    <p>Caminatas</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1900">
+                    <img src="./assets/images/icon-glamping.png" alt="Icono de Camping">
+                    <p>Glamping</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
+                    <img src="./assets/images/icon-cuatrimoto.png" alt="Icono de Cuatrimoto">
+                    <p>Cuatrimoto</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="./assets/images/icon-juegosdemesa.png" alt="Icono de Juegos de Mesa">
+                    <p>Juegos de Mesa<Menu></Menu>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!---Quienes somos?-->
+
+        <section class="quienesSomos" id="quienesSomos">
+
+            <div class="container_texto-quienessomos">
+                <span class="title_sobreMi">Quienes Somos?</span>
+                <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">En CASA HOTEL EL
+                    MANANTIAL, ubicado en Briceño, Boyacá, te brindamos una experiencia inolvidable de hospedaje y
+                    ecoturismo en plena armonía con la naturaleza. Nos destacamos por ofrecer un servicio excepcional,
+                    auténtica hospitalidad y atención meticulosa a los detalles. Valoramos tu satisfacción por encima de
+                    todo y te invitamos a disfrutar de un entorno acogedor y relajante para escapar del estrés diario y
+                    apreciar la belleza natural que nos rodea. Nuestra misión es hacer que cada huésped viva una
+                    experiencia única y memorable. ¡Esperamos con ansias darte la bienvenida! 😊.</span>
+            </div>
+
+        </section>
+
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title">Alojamiento</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+                    <img class="img-ventanasTistisoque" src="./assets/images/" alt="Img - ventanas de tisquizoque">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Acomodación en la casa hotel</p>
+
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+                    <img class="logo-one" src="./assets/images/" alt="Charco Azul">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Alquiler Zona Camping</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+                    <img class="logo-ph" src="./assets/images/" alt="Programming-hub">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Glamping Proximamente</p>
+                        <p>En 2024</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+
+            <span class="title_sobreMi">Sitios turisticos</span>
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="fade-right"
+                    data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/Tisquizoque01.jpg" alt="Ventanas de Tistizoque">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">ventanas de tisquizoque</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">La principal atracción del área son las
+                            ventanas de Tisquizoque, una cueva que forma una espectacular cascada de tres niveles, con
+                            más de 300 metros de altura, alimentada por aguas de la quebrada La Venta.</p>
+                    </div>
+
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/Pozo01.jpg" alt="Charco Azúl">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Pozo Turquesa</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">"Sumérgete en la magia del Pozo Turquesa
+                            en Nuestra casa hotel, Aguas cristalinas, paisajes de ensueño. ¡Aventura y relajación te
+                            esperan! 🏞️💦 </p>
+                    </div>
+
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="fade-left"
+                    data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cascada01.jpg" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Cascada Peña Quemada</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            "Embárcate en un viaje a la naturaleza en Quebrada Peña Quemada, Boyacá. Aguas cristalinas,
+                            altitud de 1.100 m. ¡Tu escape perfecto cerca de Guayabal y Briceño Boyacá! 🌿🌊
+                            #DescubrePeñaQuemada".</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+
+                <div class="container--contacto">
+
+                    <form id="form-c" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="subject" placeholder="Asunto | Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message"
+                            required></textarea>
+
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto"
+                                data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="ubicacion_mapa">Ubicación</div>
+            <div class="mapa-contenedor">
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d542.4665337667016!2d-73.90749612907102!3d5.686226804330095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwNDEnMDkuOSJOIDczwrA1NCcyOC44Ilc!5e1!3m2!1ses-419!2sco!4v1693678396197!5m2!1ses-419!2sco"
+                        width="90%" height="100%" style="border-radius: 20px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <a class="enlace-maps" href="https://www.google.com/maps/place/5.686086,-73.908000" target="_blank">Ver en
+            Google Maps</a>
+    </main>
+
+    <footer>
+        <div class="container--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram">
+                </a>
+                <a href="https://wa.me/+573214216120" target="_blank">
+                    <img src="./assets/images/whatsapp.png" alt="Whatsapp">
+                </a>
+
+            </div>
+
+            <div class="container_numeros--footer">
+                <span>Números de Contacto:</span>
+                <span>+57 311 556-2291 |</span>
+                <span>| +57 321 421-6120</span>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Code Made</span>
+                <span>by</span>
+                <span>Andres Betancourt</span>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <div class="circle">
+            <div class="arrow-up"></div>
+        </div>
+    </div>
+
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
