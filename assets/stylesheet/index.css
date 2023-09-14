@@ -299,6 +299,18 @@ span+span {
     align-items: center;
 
 }
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto; /* Esto centrará el contenedor horizontalmente en el centro de la pantalla */
+}
+
+.logo_home {
+    max-width: 100%; /* Esto asegura que la imagen no sea más ancha que el contenedor */
+    height: auto; /* Esto mantiene la proporción de aspecto de la imagen */
+}
 
 
 .home_info {
@@ -319,11 +331,11 @@ span+span {
 
 .home_text-2 {
     font-family: 'Pasajero';
+    font-weight: bold;
     color: #ffffff;
     font-size: 4.0rem;
-    margin-bottom: 1.5rem;
-    text-shadow: 4px 9px 8px rgba(0, 0, 0,8, 0.7);
-
+    margin-bottom: 0rem;
+    text-shadow: 20px 20px 20px rgba(1, 0, 0, 0.7);
 }
 
 .home_text-3 {
@@ -523,7 +535,7 @@ span+span {
 }
 
 .cards--habilidades {
-    background-color: #1e452d;
+    background-color: #009D71;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
