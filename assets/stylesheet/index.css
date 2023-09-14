@@ -1,11 +1,11 @@
 @font-face {
-font-family: 'Pasajero';
-src: url('../fonts/Pasajero.woff') format('woff'),
-url('../fonts/Pasajero.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-font-display: swap;
-}
+    font-family: 'Pasajero';
+    src: url('../fonts/Pasajero.woff') format('woff'),
+    url('../fonts/Pasajero.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
 
 :root {
     --white: #ffffff;
@@ -320,9 +320,9 @@ span+span {
 .home_text-2 {
     font-family: 'Pasajero';
     color: #ffffff;
-    font-size: 3.0rem;
+    font-size: 4.0rem;
     margin-bottom: 1.5rem;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    text-shadow: 4px 9px 8px rgba(0, 0, 0,8, 0.7);
 
 }
 
