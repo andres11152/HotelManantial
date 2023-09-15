@@ -390,14 +390,14 @@ span+span {
     display: inline-block;
     background-color: var(--beaver);
     border-radius: 3rem;
-    padding: .7rem 4rem .6rem 4rem;
-    color: #1e452d;
+    padding: .3rem 2rem .3rem 2rem;
+    color: #009D71;
     font-family: 'Pasajero';
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin: 2rem 0 2rem 0.3rem;
+    margin: 1rem 0 1rem 0.3rem;
     border: none;
     cursor: pointer;
     transition: .4s;
