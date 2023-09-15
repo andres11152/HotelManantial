@@ -62,7 +62,8 @@ html::-webkit-scrollbar-thumb {
 
 .header {
     background-color: #1e452d;
-    padding: .8rem 3rem;
+    padding: .8rem 2rem;
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -355,17 +356,22 @@ span+span {
 
 .text-type::after {
     content: 'ECO-TURISMO | ALOJAMIENTO | GLAMPING';
+
     font-weight: bold;
     color: #ffffff;
     background-color: #1e452d;
+    padding-top: 0.2rem;
     white-space: nowrap;
     animation: typing 10s steps(50) infinite; /* Ajusta la velocidad y el número de pasos */
     transform: translateX(-100%); /* Empieza el texto fuera de la pantalla */
 }
 
 @keyframes typing {
+    from {
+        width: 0;
+    }
     to {
-        transform: translateX(0%); /* Mueve el texto hacia la izquierda */
+        width: 100%; /* Mueve el texto hacia la izquierda */
     }
 }
 
@@ -404,9 +410,23 @@ span+span {
 .sobreMi {
     background-image: url("../images/bkg.png");
     text-align: center; /* Centrar el contenido horizontalmente */
-  
-   
+ 
 }
+.title-carrusel{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pasajero';
+    color: #1e452d;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
 .container--carrusel{
     display: flex;
     flex-direction: column;
