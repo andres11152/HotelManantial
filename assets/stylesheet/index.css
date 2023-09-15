@@ -355,7 +355,7 @@ span+span {
 }
 
 .text-type::after {
-    content: 'ECO-TURISMO | ALOJAMIENTO | GLAMPING';
+    content: 'ALOJAMIENTO | ECO-TURISMO | GLAMPING';
 
     font-weight: bold;
     color: #ffffff;
@@ -717,13 +717,9 @@ img.logo-sena {
     box-shadow: 0 10px 16px -6px rgbaa(11, 70, 31, 0.3), 0 25px 10px -24px rgba(8, 123, 31, 0.1);
 }
 
-.card_JuegoAhorcado {
+.card_ventanas, .card_pozo, .card_cascada, .card_iglesia {
     margin-bottom: 4rem;
-}
-
-.card_portafolio {
-    margin-bottom: 4rem;
-    border: 1px solid var(--eerie-black);
+   
 }
 
 .container_imgCard--proyectos {
@@ -1012,10 +1008,20 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-.container_redes-footer{
-    margin-bottom: 1.5rem;
-
+.container_tittle--redes{
+    font-family: 'Pasajero';
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding-bottom: 2REM;
 }
+.container_redes-footer {
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   
 .container_redes-footer a {
     text-decoration: none;
