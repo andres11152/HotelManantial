@@ -50,7 +50,8 @@ nav.nav_menu a {
 
 .container--carrusel {
     flex: 1;
-    padding-right: 20px; /* Cambiado a padding-right */
+    align-items: center;
+    width: 100%;
 }
 
 .title-carrusel {
@@ -62,7 +63,7 @@ nav.nav_menu a {
 /* Estilos para el carrusel */
 #myCarousel {
     width: 100%;
-    max-width: 400px; /* Tamaño máximo del carrusel */
+    max-width: 500px; /* Tamaño máximo del carrusel */
 }
 
 .carousel-inner {
@@ -71,7 +72,7 @@ nav.nav_menu a {
 
 .carousel-item img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* Estilos para los controles del carrusel */
@@ -277,8 +278,10 @@ div.btn {
 }
 
 .habilidades h1 {
-    padding-top: 4rem; /* Redujimos el espacio superior y ajustamos el tamaño del título */
-    font-size: 2.5rem; /* Ajustamos el tamaño del título */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3.8rem;
+    font-weight: bold;
 }
 
 .cards_container--habilidades {
@@ -329,23 +332,22 @@ div.btn {
     position: relative;
 }
 
-.formacion h1 {
-    padding-top: 8rem;
-    font-size: 3rem;
-}
 
-.cards--formacion:hover {
-    border: 1px solid var(--beaver);
-    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
-    transform: scale(1.1);
-    transition: .4s all;
+.formacion h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3.8rem;
+    font-weight: bold;
 }
 
 /* Proyectos */
+.proyectos{
+    padding-bottom: 0rem;
+}
 
 .proyectos h1 {
     padding-top: 8rem;
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
 .puntos1-proyectos {
@@ -370,6 +372,7 @@ div.btn {
     justify-content: space-evenly;
     justify-items: center;
     align-content: flex-start;
+    margin-bottom: 1rem;
 }
 
 .container_textCard--proyectos{
@@ -407,8 +410,9 @@ div.btn {
 /* Contacto */
 
 .contacto h1 {
-    padding: 8rem 0 2.5rem 0;
-    font-size: 3rem;
+    padding-bottom:2rem;
+    font-size: 3.8rem;
+    font-weight: bold;
 }
 
 .container_box--contacto {
@@ -416,7 +420,10 @@ div.btn {
     display: flex;
     justify-content:center;
 }
-
+.form-contact input{
+    font-size: 2rem;
+    color: #fff;
+}
 .container_img--contacto {
     display: inline-block;
     width: 60rem;
