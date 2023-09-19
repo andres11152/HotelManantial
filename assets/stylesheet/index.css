@@ -113,15 +113,16 @@ nav.nav_menu.active a {
     font-family: 'Pasajero';
     letter-spacing: .1rem;
     text-decoration: none;
-    color: var(--white);
+    color: #ffffff;
     font-size: 2rem;
     width: 90%;
     text-align: center;
+    border-radius: 20px;
 }
 
 nav.nav_menu.active a:hover {
-    color: var(--beaver);
-    background-color: var(--black);
+    color: #ffffff;
+    background-color: #1e452d;
     transition: all .4s;
 }
 
@@ -319,6 +320,8 @@ span+span {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-top: 10rem;
+
 }
 
 .home_text-1 {
@@ -561,7 +564,7 @@ span+span {
 }
 
 .cards--habilidades {
-    background-color: #009D71;
+    background-color: #1e452d;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
@@ -582,11 +585,11 @@ span+span {
 }
 
 .cards--habilidades p {
-    color: var(--white);
+    color: #ffffff;
     font-family: 'Pasajero';
     letter-spacing: .1rem;
     font-size: 1.4rem;
-    margin-bottom: .7rem;
+    margin-bottom: 0rem;
 }
 
 /* Formación */
