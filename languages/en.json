@@ -1,0 +1,49 @@
+{
+    "menu": {
+        "item2": "The Hotel House",
+        "item3": "Activities",
+        "item4": "¿About us?",
+        "item5": "Accommodation",
+        "item6": "Tourist sites",
+        "item7": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! Welcome",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+
+    "sobre-mi": {
+        "title": "text001",
+        "texto_sobreMi": "text0"
+    },
+
+    "habilidades": {
+        "title": "text1"
+    },
+
+    "formacion": {
+        "title": "text2",
+        "formacion1": "text3",
+        "tiempo-formacion1": "text4",
+        "formacion2": "text5",
+        "tiempo-formacion2": "text6",
+        "formacion3": "text7",
+        "tiempo-formacion3": "text8"
+    },
+
+    "proyectos": {
+        "title": "text9",
+        "title-proyecto1": "text10",
+        "info-proyecto1": "text11",
+        "title-proyecto2": "text12",
+        "info-proyecto2": "text13",
+        "title-proyecto3": "text14",
+        "info-proyecto3": "text15"
+    },
+    "contacto": {
+        "title": "Contact",
+        "btn-enviar": "Send"
+    }
+}

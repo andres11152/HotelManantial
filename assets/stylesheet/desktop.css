@@ -366,10 +366,13 @@ div.btn {
 }
 
 .cards_container--proyectos {
+   
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     justify-items: center;
     align-content: flex-start;
     margin-bottom: 1rem;
@@ -442,8 +445,10 @@ div.btn {
     padding: 4rem 3rem;
 }
 .mapa-contenedor{
-    padding-bottom: 36.25%;
+    padding-bottom: 26.25%;
+   
 }
+
 .container_numeros--footer{
     font-size: 2rem;
 }
