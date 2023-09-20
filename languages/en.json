@@ -11,7 +11,8 @@
     "home": {
         "home_text-1": "Hi! Welcome",
         "cv_button": "Download CV",
-        "contact_button": "Contact"
+        "contact_button": "Contact",
+        "home_text-3": "hola"
     },
 
     "sobre-mi": {

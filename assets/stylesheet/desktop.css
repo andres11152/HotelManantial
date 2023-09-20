@@ -177,10 +177,29 @@ div.btn {
 }
 
 .home_text-3 {
-    margin: 0;
-    font-size: 2.2rem;
-    width: 85rem;
-    letter-spacing: .2rem;
+    font-family: 'Pasajero', sans-serif; /* Cambia a una fuente con estilo */
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    width: auto; /* Cambia el ancho para que se ajuste automáticamente al contenido */
+    margin: 0 auto 0 0;
+    text-align: left;
+    overflow: hidden;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1e452d;
+    padding-top: 0.2rem;
+    white-space: nowrap;
+    animation: typing 3s steps(20) forwards; /* Ajusta la velocidad y el número de pasos */
+    border-radius: 15px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 26%; /* Mueve el texto hacia la izquierda */
+    }
 }
 
 .container_parrafo-info {
@@ -331,7 +350,6 @@ div.btn {
     padding-bottom: 2rem;
     position: relative;
 }
-
 
 .formacion h1 {
     padding-top: 2rem;

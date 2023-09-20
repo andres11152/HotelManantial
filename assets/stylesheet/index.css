@@ -320,7 +320,7 @@ span+span {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 17rem;
 
 }
 
@@ -344,40 +344,30 @@ span+span {
 
 .home_text-3 {
     font-family: 'Pasajero', sans-serif; /* Cambia a una fuente con estilo */
-    color: var(--white);
     font-size: 1.7rem;
     letter-spacing: .1rem;
-    width: max-content; /* Cambia el ancho para que se ajuste automáticamente al contenido */
+    width: auto; /* Cambia el ancho para que se ajuste automáticamente al contenido */
     margin: 0 auto;
     text-align: left;
-    overflow: hidden; /* Oculta el desbordamiento del texto */
-}
-
-.text-type {
-    position: relative;
-}
-
-.text-type::after {
-    content: 'ALOJAMIENTO | ECO-TURISMO | GLAMPING';
-
+    overflow: hidden;
     font-weight: bold;
     color: #ffffff;
     background-color: #1e452d;
     padding-top: 0.2rem;
     white-space: nowrap;
-    animation: typing 10s steps(50) infinite; /* Ajusta la velocidad y el número de pasos */
-    transform: translateX(-100%); /* Empieza el texto fuera de la pantalla */
+    animation: typing 5s steps(12) forwards; /* Ajusta la velocidad y el número de pasos */
+    border-radius: 15px;
 }
+
 
 @keyframes typing {
     from {
         width: 0;
     }
     to {
-        width: 100%; /* Mueve el texto hacia la izquierda */
+        width: 63%; /* Mueve el texto hacia la izquierda */
     }
 }
-
 
 .container_parrafo-info {
     display: none;
