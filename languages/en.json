@@ -10,41 +10,56 @@
 
     "home": {
         "home_text-1": "Hi! Welcome",
-        "cv_button": "Download CV",
         "contact_button": "Contact",
-        "home_text-3": "hola"
+        "slogan": "ACCOMODATION | ECOTURISM | GLAMPING",
+        "casa_titulo": "THE HOTEL HOUSE",
+        "casa_texto": "At our Casa Hotel, we offer you an unforgettable experience in a natural environment 🌳. Enjoy the rest 😴, the tranquility 🧘 and the comfort 🛏️ that we offer. We exceed expectations with exceptional service 🏆, authentic hospitality 🤝 and meticulous attention to detail 🕵️‍♀️. We value your satisfaction above all and provide you with memorable moments 🎉. In addition, we offer activities such as glamping 🏕️, billiards 🎱, ping pong 🏓, extreme games 🔥, ecological walks 🌿 and ATV rides 🛵 so you can enjoy your stay to the fullest. Your adventure in nature starts here! 🌿🏨.",
+        "title-carrusel": " 🌟📸 !Take a look at some photos of what awaits you for you to enjoy! 📸🌟"
     },
 
     "sobre-mi": {
-        "title": "text001",
-        "texto_sobreMi": "text0"
+        "title": "ACTIVITIES",
+        "title_sobreMi": "¿ABOUT US?",
+        "texto_sobreMi": "At CASA HOTEL EL MANANTIAL, located in Briceño, Boyacá, we offer you an unforgettable lodging experience and ecotourism in full harmony with nature. We stand out for offering exceptional service, Authentic hospitality and meticulous attention to detail. We value your satisfaction above everything and we invite you to enjoy a cozy and relaxing environment to escape from daily stress and appreciate the natural beauty that surrounds us. Our mission is to make each guest live a unique and memorable experience. We look forward to welcoming you! 😊."
     },
 
     "habilidades": {
-        "title": "text1"
+        "title": "ACTIVITIES",
+        "card_alojamiento": "accommodation",
+        "card_caminatas": "walks",
+        "card_juegos": "games",
+        "card_glamping": "glamping",
+        "card_cuatrimoto": "quad bike",
+        "card_prox": "soon"
     },
 
     "formacion": {
-        "title": "text2",
-        "formacion1": "text3",
-        "tiempo-formacion1": "text4",
-        "formacion2": "text5",
-        "tiempo-formacion2": "text6",
-        "formacion3": "text7",
-        "tiempo-formacion3": "text8"
+        "title": "ACCOMODATION",
+        "sitios": "TOURIST SITES",
+        "formacion1": "The Hotel House accommodation",
+        "tiempo-formacion1": "",
+        "formacion2": "Camping Zone",
+        "tiempo-formacion2": "",
+        "formacion3": "Glamping",
+        "formacion3-p": "Soon, in 2024"
     },
 
     "proyectos": {
-        "title": "text9",
-        "title-proyecto1": "text10",
-        "info-proyecto1": "text11",
-        "title-proyecto2": "text12",
-        "info-proyecto2": "text13",
-        "title-proyecto3": "text14",
-        "info-proyecto3": "text15"
+        "title-proyecto1": "tisquizoque windows",
+        "info-proyecto1": "The main attraction of the area is the Tisquizoque windows, a cave that forms a spectacular three-level waterfall, more than 300 meters high, fed by waters from the La Venta stream.",
+        "title-proyecto2": "Turquoise Well",
+        "info-proyecto2": "Immerse yourself in the magic of the Turquoise Well in Our hotel house, crystal clear waters, dream landscapes. Adventure and relaxation await you! 🏞️💦",
+        "title-proyecto3": "Peña Quemada Waterfall",
+        "info-proyecto3": "Embark on a trip to nature in Quebrada Peña Quemada, Boyacá. Crystal clear waters, altitude of 1,100 m. Your perfect escape near Guayabal and Briceño Boyacá! 🌿🌊 #DiscoverPeñaQuemada",
+        "title-proyecto4": "Basilica of Our Lady of the Rosary of Chiquinquirá",
+        "info-proyecto4": "The Basilica of Our Lady of the Rosary of Chiquinquirá is a place of Catholic worship in Chiquinquirá, Colombia, dedicated to the Virgin Mary, known as Our Lady of the Rosary of Chiquinquirá, the patron saint of Colombia.."
     },
     "contacto": {
         "title": "Contact",
-        "btn-enviar": "Send"
+        "btn-enviar": "Send",
+        "ubicacion": "LOCATION",
+        "enlace": "See location on google maps",
+        "redes": "SOCIAL NETWORKS",
+        "numeros": "Contact Numbers"
     }
 }
