@@ -341,33 +341,28 @@ span+span {
     margin-bottom: 0rem;
     text-shadow: 15px 12px 2px rgba(1, 0, 0, 0.7)
 }
-
 .home_text-3 {
-    font-family: 'Pasajero', sans-serif; /* Cambia a una fuente con estilo */
+    font-family: 'Pasajero', sans-serif;
     font-size: 1.7rem;
     letter-spacing: .1rem;
-    width: auto; /* Cambia el ancho para que se ajuste automáticamente al contenido */
-    margin: 0 auto;
-    text-align: left;
-    overflow: hidden;
+    margin: 0;
     font-weight: bold;
     color: #ffffff;
+    padding: 0.2rem 1rem; 
+
+}
+.home_text-3-p{
+    width: auto;
     background-color: #1e452d;
-    padding-top: 0.2rem;
     white-space: nowrap;
-    animation: typing 5s steps(12) forwards; /* Ajusta la velocidad y el número de pasos */
-    border-radius: 15px;
+    display: inline-block; 
+    
+}
+.home_text-3-p:hover {
+    background-color: #245739; /* Cambia el color de fondo al pasar el cursor */
+    transform: scale(1.1); /* Aplica un aumento de escala al pasar el cursor */
 }
 
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 63%; /* Mueve el texto hacia la izquierda */
-    }
-}
 
 .container_parrafo-info {
     display: none;
@@ -611,30 +606,32 @@ span+span {
 }
 
 .cards--formacion {
-    background-color: #1e452d;
-    border-radius: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 32rem;
+    width: 60%;
     margin: 0 1rem 2rem 1rem;
     justify-content: space-between;
-    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.6);
-}
-
-.cards--formacion img {
-    width: 25rem;
+   
 }
 
 .container_texto--formacion {
     margin-bottom: 1.3rem;
 }
-img.img-camping, img.img-alojamiento{
-
+/* Estilos para las imágenes de camping y alojamiento */
+.img-camping, .img-alojamiento {
     width: 100%;
     border-radius: 20px 20px 0 0;
     box-shadow: 0px 8px 14px rgba(0.6, 0.6, 0.6, 0);
+    border-radius: 20px;
+    position: relative; /* Asegura que las imágenes tengan posición relativa */
+}
+.img-camping:hover{
+    transform: scale(1.2);
+}
+.img-alojamiento:hover{
+    transform: scale(1.30);
 }
 
 img.logo-one {
@@ -648,11 +645,11 @@ img.logo-sena {
 }
 
 .cards--formacion p:nth-child(1) {
-    margin-top: 1rem;
-    color: var(--beaver);
+    
+    color: #1e452d;
     font-family: 'Pasajero';
     letter-spacing: .1rem;
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-weight: bold;
     margin-bottom: .7rem;
 }
@@ -660,8 +657,9 @@ img.logo-sena {
 .cards--formacion p:nth-child(2) {
     color: #009D71;
     font-family: 'Pasajero';
+    font-weight: bold;
     letter-spacing: .1rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 /* Proyectos */
