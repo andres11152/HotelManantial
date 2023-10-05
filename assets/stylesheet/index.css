@@ -512,29 +512,31 @@ span+span {
 }
 
 /* Habilidades */
-.galeria-alojamiento{
-    justify-content: center;
+.galeria-alojamiento {
     display: flex;
-    height: 50rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    
+    overflow-x: auto; /* Hace que la galería sea desplazable horizontalmente en dispositivos móviles */
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
 }
-.galeria-alojamiento img{
-    width: 2.3rem;
-    flex-grow: .5;
+
+.galeria-alojamiento img {
+    width: 120px; /* Tamaño inicial de las imágenes */
+    height: 80px; /* Altura inicial de las imágenes */
     object-fit: cover;
-    opacity: .5;
-    transition: .5s ease ;
+    opacity: 0.7;
+    transition: all 0.3s ease;
     border-radius: 10px;
-    
 }
-.galeria-alojamiento img:hover{
-    cursor: crosshair;
-    width: 40rem;
+
+.galeria-alojamiento img:hover {
+    cursor: pointer;
+    width: 75%; /* Tamaño de las imágenes al hacer hover */
+    height:75%; /* Altura de las imágenes al hacer hover */
     opacity: 1;
     filter: contrast(140%);
 }
+
 
 .habilidades {
     background-image: url("../images/bkg.png");

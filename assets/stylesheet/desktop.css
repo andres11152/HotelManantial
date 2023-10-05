@@ -152,7 +152,6 @@ div.btn {
 .home_info {
     width: 100%;
     padding-left: 5rem;
-    padding-top: 6rem;
 }
 
 .container_text-info {
@@ -178,26 +177,29 @@ div.btn {
 }
 
 .home_text-3 {
-    font-family: 'Pasajero', sans-serif;
+    font-family: 'Pasajero', sans-serif; /* Cambia a una fuente con estilo */
     font-size: 1.7rem;
     letter-spacing: .1rem;
-    margin: 0;
+    width: auto; /* Cambia el ancho para que se ajuste automáticamente al contenido */
+    margin: 0 auto 0 0;
+    text-align: left;
+    overflow: hidden;
     font-weight: bold;
     color: #ffffff;
-
-    padding: 2 2 2 2;
-    border-radius: 35px;
-    display: inline-flex;
-    align-items: flex-start; 
-    
-}
-.home_text-3-p{
-    width: auto;
     background-color: #1e452d;
+    padding-top: 0.2rem;
+    white-space: nowrap;
+    animation: typing 3s steps(20) forwards; /* Ajusta la velocidad y el número de pasos */
+    border-radius: 15px;
 }
-.home_text-3-p:hover {
-    background-color: #245739; /* Cambia el color de fondo al pasar el cursor */
-    transform: scale(1.1); /* Aplica un aumento de escala al pasar el cursor */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 26%; /* Mueve el texto hacia la izquierda */
+    }
 }
 
 .container_parrafo-info {
@@ -346,24 +348,29 @@ div.btn {
 .galeria-alojamiento{
     justify-content: center;
     display: flex;
-    height: 50rem;
+    
     padding-left: 6rem;
     padding-right: 6rem;
+    align-items: center;
     
 }
 .galeria-alojamiento img{
+    height: 55em;
     width: 8rem;
     flex-grow: .5;
     object-fit: cover;
     opacity: .5;
-    transition: .5s ease ;
+    transition: .7s ease ;
     border-radius: 10px;
 }
 .galeria-alojamiento img:hover{
     cursor: crosshair;
-    width: 80rem;
+    width: 70%; /* Tamaño de las imágenes al hacer hover */
+    height:70%; /* Altura de las imágenes al hacer hover */
     opacity: 1;
     filter: contrast(140%);
+    border-radius: 10px;
+    
 }
 
 .formacion {
@@ -376,24 +383,6 @@ div.btn {
     padding-bottom: 2rem;
     font-size: 3.8rem;
     font-weight: bold;
-}
-.cards_container--formacion{
-    width: 100%;
-    justify-content: center;
-
-}
-.img-camping, .img-alojamiento {
-    width: 60%;
-    border-radius: 20px 20px 0 0;
-    box-shadow: 0px 8px 14px rgba(0.6, 0.6, 0.6, 0);
-    border-radius: 20px;
-    position: relative; /* Asegura que las imágenes tengan posición relativa */
-}
-.img-camping:hover, .img-alojamiento:hover{
-    transition: 600ms;
-    transform: scale(1.5);
-    box-shadow: 0px 8px 14px rgba(0.6, 0.6, 0.6, 0);
-    
 }
 
 /* Proyectos */
@@ -423,8 +412,8 @@ div.btn {
 
 .cards_container--proyectos {
    
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
