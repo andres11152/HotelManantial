@@ -65,6 +65,7 @@
             <span></span>
         </div>
     </header>
+    
 
     <main>
         <!-- Home -->
@@ -79,8 +80,8 @@
                     <p class="home_text-2">EL MANANTIAL</p>
                 </div>
 
-                <div>
-                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"> ALOJAMIENTO | ECO-TURISMO | GLAMPING </p>
+                <div class="home_text-3">
+                    <p class="home_text-3-p" data-section="home" data-value="slogan"> ALOJAMIENTO | ECO-TURISMO | GLAMPING </p>
                 </div>
 
 
@@ -91,7 +92,6 @@
                     </a>
                 </div>
             </div>
-
         </section>
 
         <!-- La casa hotel -->
@@ -99,8 +99,8 @@
 
             <div class="container_content-sobreMi">
                 <div class="container_texto-sobreMi">
-                    <span class="title_sobreMi">LA CASA HOTEL</span>
-                    <span class="text_sobreMi">En nuestra Casa Hotel, te brindamos una
+                    <span class="title_sobreMi" data-section="home" data-value="casa_titulo">LA CASA HOTEL</span>
+                    <span class="text_sobreMi" data-section="home" data-value="casa_texto">En nuestra Casa Hotel, te brindamos una
                         experiencia inolvidable en un entorno natural 🌳. Disfruta del
                         descanso 😴, la tranquilidad 🧘 y la comodidad 🛏️ que ofrecemos.
                         Superamos expectativas con un servicio excepcional 🏆,
@@ -112,7 +112,7 @@
                 </div>
 
                 <div class="container--carrusel">
-                    <h2 class="title-carrusel">"¡Echa un vistazo a algunas fotos de lo que te espera para que disfrutes!
+                    <h2 class="title-carrusel" data-section="home" data-value="title-carrusel">"🌟📸¡Echa un vistazo a algunas fotos de lo que te espera para que disfrutes!
                         📸🌟"</h2>
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicadores -->
@@ -166,26 +166,26 @@
             <div class="cards_container--habilidades">
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./assets/images/icon-cama.png" alt="Icono de Alojamiento">
-                    <p>Alojamiento</p>
+                    <p data-section="habilidades" data-value="card_alojamiento">Alojamiento</p>
                 </div>
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1700">
                     <img src="./assets/images/icon-caminata.png" alt="Icono Caminata">
-                    <p>Caminatas</p>
+                    <p data-section="habilidades" data-value="card_caminatas">Caminatas</p>
                 </div>
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
-                                    <img src="./assets/images/icon-juegosdemesa.png" alt="Icono de Juegos de Mesa">
-                                    <p>Juegos de Mesa<Menu></Menu>
-                                    </p>
-                                </div>
+                    <img src="./assets/images/icon-juegosdemesa.png" alt="Icono de Juegos de Mesa">
+                    <p data-section="habilidades" data-value="card_juegos">Juegos de Mesa<Menu></Menu>
+                    </p>
+                </div>
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1900">
                     <img src="./assets/images/icon-glamping.png" alt="Icono de Camping">
-                    <p>Glamping</p>
-                    <p>Proximamente</p>
+                    <p data-section="habilidades" data-value="card_glamping">Glamping</p>
+                    <p data-section="habilidades" data-value="card_prox">Proximamente</p>
                 </div>
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
                     <img src="./assets/images/icon-cuatrimoto.png" alt="Icono de Cuatrimoto">
-                    <p>Cuatrimoto</p>
-                    <p>Proximamente</p>
+                    <p data-section="habilidades" data-value="card_cuatrimoto">Cuatrimoto</p>
+                    <p data-section="habilidades" data-value="card_prox">Proximamente</p>
                 </div>
 
             </div>
@@ -196,7 +196,7 @@
         <section class="quienesSomos" id="quienesSomos">
 
             <div class="container_texto-quienessomos">
-                <span class="title_sobreMi">QUIENES SOMOS?</span>
+                <span class="title_sobreMi" data-section="sobre-mi" data-value="title_sobreMi" >QUIENES SOMOS?</span>
                 <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">En CASA HOTEL EL
                     MANANTIAL, ubicado en Briceño, Boyacá, te brindamos una experiencia inolvidable de hospedaje y
                     ecoturismo en plena armonía con la naturaleza. Nos destacamos por ofrecer un servicio excepcional,
@@ -242,7 +242,7 @@
                     <!--<img class="logo-ph" src="./assets/images/" alt="Programming-hub">-->
                     <div class="container_texto--formacion">
                         <p data-section="formacion" data-value="formacion3">Glamping Proximamente</p>
-                        <p>En 2024</p>
+                        <p data-section="formacion" data-value="formacion3-p">En 2024</p>
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@
 
         <section class="proyectos" id="sitiosT">
 
-            <span class="title_sobreMi">SITIOS TURISTICOS</span>
+            <span class="title_sobreMi"data-section="formacion" data-value="sitios" >SITIOS TURISTICOS</span>
 
             <div class="cards_container--proyectos">
                 <div class="cards--proyectos card_ventanas" data-aos="zoom-in-up"
@@ -307,8 +307,8 @@
                 </div>
 
                 <div class="container_textCard--proyectos">
-                    <h2 data-section="proyectos" data-value="title-proyecto3">Basílica de Nuestra Señora del Rosario de Chiquinquirá</h2>
-                    <p data-section="proyectos" data-value="info-proyecto3">
+                    <h2 data-section="proyectos" data-value="title-proyecto4">Basílica de Nuestra Señora del Rosario de Chiquinquirá</h2>
+                    <p data-section="proyectos" data-value="info-proyecto4">
                         "La Basílica de Nuestra Señora del Rosario de Chiquinquirá es un lugar de culto católico en Chiquinquirá, Colombia,
                         dedicado a la Virgen María, conocida como Nuestra Señora del Rosario de Chiquinquirá, la santa patrona de Colombia..".</p>
                 </div>
@@ -338,7 +338,7 @@
                     </form>
                 </div>
             </div>
-            <div class="ubicacion_mapa">UBICACIÓN</div>
+            <div class="ubicacion_mapa" data-section="contacto" data-value="ubicacion">UBICACIÓN</div>
             <div class="mapa-contenedor">
                 <div class="mapa">
                     <iframe
@@ -348,7 +348,7 @@
                 </div>
             </div>
         </section>
-        <a class="enlace-maps" href="https://www.google.com/maps/place/5.686086,-73.908000" target="_blank">Ver en
+        <a class="enlace-maps" data-section="contacto" data-value="enlace" href="https://www.google.com/maps/place/5.686086,-73.908000" target="_blank">Ver en
             Google Maps</a>
     </main>
 
@@ -365,11 +365,11 @@
                 
             </div>
             <div class="container_tittle--redes">
-                <span>REDES SOCIALES</span>
+                <span data-section="contacto" data-value="redes" >REDES SOCIALES</span>
             </div>
 
             <div class="container_numeros--footer">
-                <span>Números de Contacto:</span>
+                <span data-section="contacto" data-value="numeros">Números de Contacto:</span>
                 <span>+57 321 421-6120 |</span>
                 <span>| +57 311 556-2291</span>
             </div>

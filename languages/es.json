@@ -1,0 +1,65 @@
+{
+    "menu": {
+        "item2": "La Casa Hotel",
+        "item3": "Actividades",
+        "item4": "¿Quienes Somos?",
+        "item5": "Alojamiento",
+        "item6": "Sitios turisticos",
+        "item7": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hi! Welcome",
+        "contact_button": "Contacto",
+        "slogan": "ALOJAMIENTO | ECO-TURISMO | GLAMPING",
+        "casa_titulo": "LA CASA HOTEL",
+        "casa_texto": "En nuestra Casa Hotel, te brindamos una experiencia inolvidable en un entorno natural 🌳. Disfruta del descanso 😴, la tranquilidad 🧘 y la comodidad 🛏️ que ofrecemos. Superamos expectativas con un servicio excepcional 🏆, hospitalidad auténtica 🤝 y atención meticulosa a los detalles 🕵️‍♀️. Valoramos tu satisfacción por encima de todo y te proporcionamos momentos memorables 🎉. Además, ofrecemos actividades como glamping 🏕️, billar 🎱, ping pong 🏓, juegos extremos 🔥, caminatas ecológicas 🌿 y paseos en cuatrimotos 🛵 para que disfrutes al máximo tu estadía. ¡Tu aventura en la naturaleza empieza aquí! 🌿🏨..",
+        "title-carrusel": " 🌟📸¡Echa un vistazo a algunas fotos de lo que te espera para que disfrutes! 📸🌟"
+    },
+
+    "sobre-mi": {
+        "title": "ACTIVIDADES",
+        "title_sobreMi": "¿QUIENES SOMOS?",
+        "texto_sobreMi": "En CASA HOTEL EL MANANTIAL, ubicado en Briceño, Boyacá, te brindamos una experiencia inolvidable de hospedaje y ecoturismo en plena armonía con la naturaleza. Nos destacamos por ofrecer un servicio excepcional, auténtica hospitalidad y atención meticulosa a los detalles. Valoramos tu satisfacción por encima de  todo y te invitamos a disfrutar de un entorno acogedor y relajante para escapar del estrés diario y apreciar la belleza natural que nos rodea. Nuestra misión es hacer que cada huésped viva una experiencia única y memorable. ¡Esperamos con ansias darte la bienvenida! 😊.."
+    },
+
+    "habilidades": {
+        "title": "ACTIVITIES",
+        "card_alojamiento": "Alojamiento",
+        "card_caminatas": "Caminatas",
+        "card_juegos": "Juegos de Mesa",
+        "card_glamping": "glamping",
+        "card_cuatrimoto": "Cuatrimoto",
+        "card_prox": "Proximamente"
+    },
+
+    "formacion": {
+        "title": "ALOJAMIENTO",
+        "sitios": "SITIOS TURISTICOS",
+        "formacion1": "Acomodación en la casa hotel",
+        "tiempo-formacion1": "",
+        "formacion2": "Alquiler Zona Camping",
+        "tiempo-formacion2": "",
+        "formacion3": "Glamping Proximamente",
+        "formacion3-p": "En 2024"
+    },
+
+    "proyectos": {
+        "title-proyecto1": "ventanas de tisquizoque",
+        "info-proyecto1": "La principal atracción del área son las ventanas de Tisquizoque, una cueva que forma una espectacular cascada de tres niveles, con más de 300 metros de altura, alimentada por aguas de la quebrada La Venta.",
+        "title-proyecto2": "Pozo Turquesa",
+        "info-proyecto2": "Sumérgete en la magia del Pozo Turquesa en Nuestra casa hotel, Aguas cristalinas, paisajes de ensueño. ¡Aventura y relajación te esperan! 🏞️💦",
+        "title-proyecto3": "Cascada Peña Quemada",
+        "info-proyecto3": "Embárcate en un viaje a la naturaleza en Quebrada Peña Quemada, Boyacá. Aguas cristalinas, altitud de 1.100 m. ¡Tu escape perfecto cerca de Guayabal y Briceño Boyacá! 🌿🌊 #DescubrePeñaQuemada",
+        "title-proyecto4": "Basílica de Nuestra Señora del Rosario de Chiquinquirá",
+        "info-proyecto4": "La Basílica de Nuestra Señora del Rosario de Chiquinquirá es un lugar de culto católico en Chiquinquirá, Colombia, dedicado a la Virgen María, conocida como Nuestra Señora del Rosario de Chiquinquirá, la santa patrona de Colombia..."
+    },
+    "contacto": {
+        "title": "Contacto",
+        "btn-enviar": "Enviar",
+        "ubicacion": "UBICACIÓN",
+        "enlace": "Ver en google maps",
+        "redes": "REDES SOCIALES",
+        "numeros": "Números de contacto"
+    }
+}
