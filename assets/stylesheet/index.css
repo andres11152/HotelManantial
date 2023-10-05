@@ -518,6 +518,7 @@ span+span {
     padding: 1rem;
     gap: 1rem;
     align-items: center;
+    padding-bottom: 6rem;
 }
 
 .galeria-alojamiento img {
