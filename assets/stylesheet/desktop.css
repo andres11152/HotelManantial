@@ -345,6 +345,28 @@ div.btn {
 
 
 /* Formación */
+.galeria-alojamiento{
+    justify-content: center;
+    display: flex;
+    height: 50rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    
+}
+.galeria-alojamiento img{
+    width: 8rem;
+    flex-grow: .5;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease ;
+    border-radius: 10px;
+}
+.galeria-alojamiento img:hover{
+    cursor: crosshair;
+    width: 80rem;
+    opacity: 1;
+    filter: contrast(140%);
+}
 
 .formacion {
     padding-bottom: 2rem;
