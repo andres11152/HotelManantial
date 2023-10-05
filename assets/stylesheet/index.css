@@ -636,7 +636,7 @@ span+span {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 60%;
+    width: 80%;
     margin: 0 1rem 2rem 1rem;
     justify-content: space-between;
    
@@ -653,12 +653,7 @@ span+span {
     border-radius: 20px;
     position: relative; /* Asegura que las imágenes tengan posición relativa */
 }
-.img-camping:hover{
-    transform: scale(1.2);
-}
-.img-alojamiento:hover{
-    transform: scale(1.30);
-}
+
 
 img.logo-one {
     width: 21rem;
