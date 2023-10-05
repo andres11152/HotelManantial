@@ -531,8 +531,8 @@ span+span {
 
 .galeria-alojamiento img:hover {
     cursor: pointer;
-    width: 75%; /* Tamaño de las imágenes al hacer hover */
-    height:75%; /* Altura de las imágenes al hacer hover */
+    width: 85%; /* Tamaño de las imágenes al hacer hover */
+    height:85%; /* Altura de las imágenes al hacer hover */
     opacity: 1;
     filter: contrast(140%);
 }
